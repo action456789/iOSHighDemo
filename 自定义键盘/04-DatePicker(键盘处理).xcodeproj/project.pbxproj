@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB2E6DBC19AC31AF00DAA1AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2E6DBB19AC31AF00DAA1AF /* Foundation.framework */; };
+		FB2E6DBE19AC31AF00DAA1AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2E6DBD19AC31AF00DAA1AF /* CoreGraphics.framework */; };
+		FB2E6DC019AC31AF00DAA1AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2E6DBF19AC31AF00DAA1AF /* UIKit.framework */; };
+		FB2E6DC619AC31AF00DAA1AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB2E6DC419AC31AF00DAA1AF /* InfoPlist.strings */; };
+		FB2E6DC819AC31AF00DAA1AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2E6DC719AC31AF00DAA1AF /* main.m */; };
+		FB2E6DCC19AC31AF00DAA1AF /* HMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2E6DCB19AC31AF00DAA1AF /* HMAppDelegate.m */; };
+		FB2E6DCF19AC31AF00DAA1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2E6DCD19AC31AF00DAA1AF /* Main.storyboard */; };
+		FB2E6DD219AC31AF00DAA1AF /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2E6DD119AC31AF00DAA1AF /* HMViewController.m */; };
+		FB2E6DD419AC31AF00DAA1AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2E6DD319AC31AF00DAA1AF /* Images.xcassets */; };
+		FB2E6DDB19AC31AF00DAA1AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2E6DDA19AC31AF00DAA1AF /* XCTest.framework */; };
+		FB2E6DDC19AC31AF00DAA1AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2E6DBB19AC31AF00DAA1AF /* Foundation.framework */; };
+		FB2E6DDD19AC31AF00DAA1AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2E6DBF19AC31AF00DAA1AF /* UIKit.framework */; };
+		FB2E6DE519AC31AF00DAA1AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB2E6DE319AC31AF00DAA1AF /* InfoPlist.strings */; };
+		FB2E6DE719AC31AF00DAA1AF /* _4_DatePicker______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2E6DE619AC31AF00DAA1AF /* _4_DatePicker______Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB2E6DDE19AC31AF00DAA1AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2E6DB019AC31AF00DAA1AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB2E6DB719AC31AF00DAA1AF;
+			remoteInfo = "04-DatePicker(键盘处理)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB2E6DB819AC31AF00DAA1AF /* 04-DatePicker(键盘处理).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-DatePicker(键盘处理).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2E6DBB19AC31AF00DAA1AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB2E6DBD19AC31AF00DAA1AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB2E6DBF19AC31AF00DAA1AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB2E6DC319AC31AF00DAA1AF /* 04-DatePicker(键盘处理)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "04-DatePicker(键盘处理)-Info.plist"; sourceTree = "<group>"; };
+		FB2E6DC519AC31AF00DAA1AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB2E6DC719AC31AF00DAA1AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB2E6DC919AC31AF00DAA1AF /* 04-DatePicker(键盘处理)-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "04-DatePicker(键盘处理)-Prefix.pch"; sourceTree = "<group>"; };
+		FB2E6DCA19AC31AF00DAA1AF /* HMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAppDelegate.h; sourceTree = "<group>"; };
+		FB2E6DCB19AC31AF00DAA1AF /* HMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAppDelegate.m; sourceTree = "<group>"; };
+		FB2E6DCE19AC31AF00DAA1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB2E6DD019AC31AF00DAA1AF /* HMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
+		FB2E6DD119AC31AF00DAA1AF /* HMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
+		FB2E6DD319AC31AF00DAA1AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB2E6DD919AC31AF00DAA1AF /* 04-DatePicker(键盘处理)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-DatePicker(键盘处理)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2E6DDA19AC31AF00DAA1AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FB2E6DE219AC31AF00DAA1AF /* 04-DatePicker(键盘处理)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "04-DatePicker(键盘处理)Tests-Info.plist"; sourceTree = "<group>"; };
+		FB2E6DE419AC31AF00DAA1AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB2E6DE619AC31AF00DAA1AF /* _4_DatePicker______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_DatePicker______Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB2E6DB519AC31AF00DAA1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2E6DBE19AC31AF00DAA1AF /* CoreGraphics.framework in Frameworks */,
+				FB2E6DC019AC31AF00DAA1AF /* UIKit.framework in Frameworks */,
+				FB2E6DBC19AC31AF00DAA1AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2E6DD619AC31AF00DAA1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2E6DDB19AC31AF00DAA1AF /* XCTest.framework in Frameworks */,
+				FB2E6DDD19AC31AF00DAA1AF /* UIKit.framework in Frameworks */,
+				FB2E6DDC19AC31AF00DAA1AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB2E6DAF19AC31AF00DAA1AF = {
+			isa = PBXGroup;
+			children = (
+				FB2E6DC119AC31AF00DAA1AF /* 04-DatePicker(键盘处理) */,
+				FB2E6DE019AC31AF00DAA1AF /* 04-DatePicker(键盘处理)Tests */,
+				FB2E6DBA19AC31AF00DAA1AF /* Frameworks */,
+				FB2E6DB919AC31AF00DAA1AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB2E6DB919AC31AF00DAA1AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB2E6DB819AC31AF00DAA1AF /* 04-DatePicker(键盘处理).app */,
+				FB2E6DD919AC31AF00DAA1AF /* 04-DatePicker(键盘处理)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB2E6DBA19AC31AF00DAA1AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2E6DBB19AC31AF00DAA1AF /* Foundation.framework */,
+				FB2E6DBD19AC31AF00DAA1AF /* CoreGraphics.framework */,
+				FB2E6DBF19AC31AF00DAA1AF /* UIKit.framework */,
+				FB2E6DDA19AC31AF00DAA1AF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB2E6DC119AC31AF00DAA1AF /* 04-DatePicker(键盘处理) */ = {
+			isa = PBXGroup;
+			children = (
+				FB2E6DCA19AC31AF00DAA1AF /* HMAppDelegate.h */,
+				FB2E6DCB19AC31AF00DAA1AF /* HMAppDelegate.m */,
+				FB2E6DCD19AC31AF00DAA1AF /* Main.storyboard */,
+				FB2E6DD019AC31AF00DAA1AF /* HMViewController.h */,
+				FB2E6DD119AC31AF00DAA1AF /* HMViewController.m */,
+				FB2E6DD319AC31AF00DAA1AF /* Images.xcassets */,
+				FB2E6DC219AC31AF00DAA1AF /* Supporting Files */,
+			);
+			path = "04-DatePicker(键盘处理)";
+			sourceTree = "<group>";
+		};
+		FB2E6DC219AC31AF00DAA1AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB2E6DC319AC31AF00DAA1AF /* 04-DatePicker(键盘处理)-Info.plist */,
+				FB2E6DC419AC31AF00DAA1AF /* InfoPlist.strings */,
+				FB2E6DC719AC31AF00DAA1AF /* main.m */,
+				FB2E6DC919AC31AF00DAA1AF /* 04-DatePicker(键盘处理)-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB2E6DE019AC31AF00DAA1AF /* 04-DatePicker(键盘处理)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB2E6DE619AC31AF00DAA1AF /* _4_DatePicker______Tests.m */,
+				FB2E6DE119AC31AF00DAA1AF /* Supporting Files */,
+			);
+			path = "04-DatePicker(键盘处理)Tests";
+			sourceTree = "<group>";
+		};
+		FB2E6DE119AC31AF00DAA1AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB2E6DE219AC31AF00DAA1AF /* 04-DatePicker(键盘处理)Tests-Info.plist */,
+				FB2E6DE319AC31AF00DAA1AF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB2E6DB719AC31AF00DAA1AF /* 04-DatePicker(键盘处理) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2E6DEA19AC31AF00DAA1AF /* Build configuration list for PBXNativeTarget "04-DatePicker(键盘处理)" */;
+			buildPhases = (
+				FB2E6DB419AC31AF00DAA1AF /* Sources */,
+				FB2E6DB519AC31AF00DAA1AF /* Frameworks */,
+				FB2E6DB619AC31AF00DAA1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-DatePicker(键盘处理)";
+			productName = "04-DatePicker(键盘处理)";
+			productReference = FB2E6DB819AC31AF00DAA1AF /* 04-DatePicker(键盘处理).app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB2E6DD819AC31AF00DAA1AF /* 04-DatePicker(键盘处理)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2E6DED19AC31AF00DAA1AF /* Build configuration list for PBXNativeTarget "04-DatePicker(键盘处理)Tests" */;
+			buildPhases = (
+				FB2E6DD519AC31AF00DAA1AF /* Sources */,
+				FB2E6DD619AC31AF00DAA1AF /* Frameworks */,
+				FB2E6DD719AC31AF00DAA1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB2E6DDF19AC31AF00DAA1AF /* PBXTargetDependency */,
+			);
+			name = "04-DatePicker(键盘处理)Tests";
+			productName = "04-DatePicker(键盘处理)Tests";
+			productReference = FB2E6DD919AC31AF00DAA1AF /* 04-DatePicker(键盘处理)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB2E6DB019AC31AF00DAA1AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = vgios;
+				TargetAttributes = {
+					FB2E6DD819AC31AF00DAA1AF = {
+						TestTargetID = FB2E6DB719AC31AF00DAA1AF;
+					};
+				};
+			};
+			buildConfigurationList = FB2E6DB319AC31AF00DAA1AF /* Build configuration list for PBXProject "04-DatePicker(键盘处理)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB2E6DAF19AC31AF00DAA1AF;
+			productRefGroup = FB2E6DB919AC31AF00DAA1AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB2E6DB719AC31AF00DAA1AF /* 04-DatePicker(键盘处理) */,
+				FB2E6DD819AC31AF00DAA1AF /* 04-DatePicker(键盘处理)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB2E6DB619AC31AF00DAA1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2E6DD419AC31AF00DAA1AF /* Images.xcassets in Resources */,
+				FB2E6DC619AC31AF00DAA1AF /* InfoPlist.strings in Resources */,
+				FB2E6DCF19AC31AF00DAA1AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2E6DD719AC31AF00DAA1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2E6DE519AC31AF00DAA1AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB2E6DB419AC31AF00DAA1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2E6DD219AC31AF00DAA1AF /* HMViewController.m in Sources */,
+				FB2E6DC819AC31AF00DAA1AF /* main.m in Sources */,
+				FB2E6DCC19AC31AF00DAA1AF /* HMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2E6DD519AC31AF00DAA1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2E6DE719AC31AF00DAA1AF /* _4_DatePicker______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB2E6DDF19AC31AF00DAA1AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB2E6DB719AC31AF00DAA1AF /* 04-DatePicker(键盘处理) */;
+			targetProxy = FB2E6DDE19AC31AF00DAA1AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB2E6DC419AC31AF00DAA1AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2E6DC519AC31AF00DAA1AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB2E6DCD19AC31AF00DAA1AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2E6DCE19AC31AF00DAA1AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB2E6DE319AC31AF00DAA1AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2E6DE419AC31AF00DAA1AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB2E6DE819AC31AF00DAA1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB2E6DE919AC31AF00DAA1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB2E6DEB19AC31AF00DAA1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "04-DatePicker(键盘处理)/04-DatePicker(键盘处理)-Prefix.pch";
+				INFOPLIST_FILE = "04-DatePicker(键盘处理)/04-DatePicker(键盘处理)-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB2E6DEC19AC31AF00DAA1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "04-DatePicker(键盘处理)/04-DatePicker(键盘处理)-Prefix.pch";
+				INFOPLIST_FILE = "04-DatePicker(键盘处理)/04-DatePicker(键盘处理)-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FB2E6DEE19AC31AF00DAA1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/04-DatePicker(键盘处理).app/04-DatePicker(键盘处理)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "04-DatePicker(键盘处理)/04-DatePicker(键盘处理)-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "04-DatePicker(键盘处理)Tests/04-DatePicker(键盘处理)Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FB2E6DEF19AC31AF00DAA1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/04-DatePicker(键盘处理).app/04-DatePicker(键盘处理)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "04-DatePicker(键盘处理)/04-DatePicker(键盘处理)-Prefix.pch";
+				INFOPLIST_FILE = "04-DatePicker(键盘处理)Tests/04-DatePicker(键盘处理)Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB2E6DB319AC31AF00DAA1AF /* Build configuration list for PBXProject "04-DatePicker(键盘处理)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2E6DE819AC31AF00DAA1AF /* Debug */,
+				FB2E6DE919AC31AF00DAA1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2E6DEA19AC31AF00DAA1AF /* Build configuration list for PBXNativeTarget "04-DatePicker(键盘处理)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2E6DEB19AC31AF00DAA1AF /* Debug */,
+				FB2E6DEC19AC31AF00DAA1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB2E6DED19AC31AF00DAA1AF /* Build configuration list for PBXNativeTarget "04-DatePicker(键盘处理)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2E6DEE19AC31AF00DAA1AF /* Debug */,
+				FB2E6DEF19AC31AF00DAA1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB2E6DB019AC31AF00DAA1AF /* Project object */;
+}
